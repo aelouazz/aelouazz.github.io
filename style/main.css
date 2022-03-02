@@ -43,7 +43,9 @@ a{
 .visible-content {
 	width: 75vw;
 	height: 100vh;
-	background-color: white;
+	display: flex;
+	flex-direction: column;
+	background-color: black;
 }
 .logo {
 	width: 10vw;
@@ -86,6 +88,9 @@ color: #7C7D81;
 	margin-top: 2vh;
 }
 
+.presentation{
+	width: 75vw;
 
+}
 
 
