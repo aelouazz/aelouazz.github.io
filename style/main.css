@@ -9,7 +9,7 @@
 }
 
 img {
-    pointer-events: none;
+	pointer-events: none;
 }
 
 a {
@@ -33,7 +33,7 @@ a {
 	/* align-items: center; */
 	padding-left: 3vw;
 	padding-top: 3vh;
-	box-shadow: 0.2vw 0px .4vw rgba(0, 0, 0, 0.1);
+	box-shadow: 0.2vw 0px 0.4vw rgba(0, 0, 0, 0.1);
 	/* display: none; */
 }
 .content-container {
@@ -96,20 +96,20 @@ a {
 	margin-top: 2vh;
 }
 
-.hero{
-	width:77vw;
+.hero {
+	width: 77vw;
 	background-color: white;
 	height: 40vh;
-	box-shadow: 0px 3px 0px #E6E5E3;
+	box-shadow: 0px 3px 0px #e6e5e3;
 	display: flex;
 	align-items: center;
 }
 
-.intro{
-display: flex;
-flex-direction: column;
-width: 30%;
-margin-left: 8vw;
+.intro {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	margin-left: 8vw;
 }
 
 .intro h4 {
@@ -118,11 +118,11 @@ margin-left: 8vw;
 	font-size: 2vw;
 	color: #484445;
 }
-.intro h4 span{
-	color:#03A1C3;
+.intro h4 span {
+	color: #03a1c3;
 }
 
-.intro p{
+.intro p {
 	font-size: 1.006vw;
 	line-height: 150%;
 	margin-top: 1vw;
@@ -132,37 +132,22 @@ margin-left: 8vw;
 	width: 100%;
 }
 
-
-
-
-
-
-
 /* 320px — 480px: Mobile devices. */
 @media only screen and (max-width: 480px) {
-
 }
-
 
 /* 481px — 768px: iPads, Tablets. */
 @media only screen and (max-width: 768px) {
-
 }
-
 
 /* 769px — 1024px: Small screens, laptops. */
 @media only screen and (max-width: 1024px) {
-
 }
-
 
 /* 1025px — 1200px: Desktops, large screens. */
 @media only screen and (max-width: 1200px) {
-
 }
-
 
 /* 1201px and more — Extra large screens, TV. */
 @media only screen and (max-width: 1024px) {
-
 }
