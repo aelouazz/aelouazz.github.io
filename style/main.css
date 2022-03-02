@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.main-container {
+	background-color: gray;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	font-family: Noto Sans;
+}
+.nav {
+	width: 25vw;
+	height: 100vh;
+	position: fixed;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	padding-left: 5vw;
+	padding-top: 3vh;
+	box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.1);
+
+}
+.content-container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	/* background-color: orange; */
+}
+.clear-content {
+	width: 25vw;
+	height: 100vh;
+	background-color: black;
+}
+.visible-content {
+	width: 75vw;
+	height: 100vh;
+	background-color: white;
+}
+.logo {
+	width: 10vw;
+}
+.name{
+font-style: normal;
+font-weight: normal;
+font-size:1vw;
+line-height: 130%;
+margin-top: 1vh;
+color: #7C7D81;
+}
+.job{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.1vw;
+	margin-top: .5vh;
+	color: #7C7D81;
+}
+.nav-links{
+	margin-top: 10vh;
+}
+.nav-links ul{
+	text-decoration: none;
+	font-weight:900;
+	font-size: 1.3vw;
+	list-style: none;
+}
+.nav-links ul .current a{
+	text-decoration: underline;
+	color:#3F5CB2;
+	/* color: red; */
+}
+
+.nav-links ul li a{
+	color: #353535;
+	margin-top: 2vh;
+}
+.nav-links ul li {
+	margin-top: 2vh;
+}
+
+
+
+
