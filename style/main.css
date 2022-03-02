@@ -4,21 +4,22 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	/* border: red 1px solid; */
 }
 a {
 	text-decoration: none;
 	color: black;
 }
 .main-container {
-	background-color: gray;
-	width: 100vw;
-	height: 100vh;
+	background-color: white;
+	width: 100%;
+	height: 100%;
 	display: flex;
 	font-family: Noto Sans;
 }
 .nav {
-	width: 25vw;
-	height: 100vh;
+	width: 25%;
+	height: 100%;
 	position: fixed;
 	background-color: white;
 	display: flex;
@@ -27,24 +28,25 @@ a {
 	padding-left: 5vw;
 	padding-top: 3vh;
 	box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.1);
+	/* display: none; */
 }
 .content-container {
-	width: 100vw;
-	height: 100vh;
+	width: 100%;
+	height: 100%;
 	display: flex;
 	/* background-color: orange; */
 }
 .clear-content {
-	width: 25vw;
-	height: 100vh;
-	background-color: black;
+	width: 25%;
+	height: 100%;
+	background-color: white;
 }
 .visible-content {
-	width: 75vw;
-	height: 100vh;
+	width: 75%;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
-	background-color: black;
+	background-color: white;
 }
 .logo {
 	width: 10vw;
@@ -88,5 +90,5 @@ a {
 }
 
 .presentation {
-	width: 75vw;
+	width: 100%;
 }
