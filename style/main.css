@@ -5,7 +5,13 @@
 	padding: 0;
 	box-sizing: border-box;
 	/* border: red 1px solid; */
+	cursor: url(../img/mouse.png), auto;
 }
+
+img {
+    pointer-events: none;
+}
+
 a {
 	text-decoration: none;
 	color: black;
@@ -27,7 +33,7 @@ a {
 	/* align-items: center; */
 	padding-left: 3vw;
 	padding-top: 3vh;
-	box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.1);
+	box-shadow: 0.2vw 0px .4vw rgba(0, 0, 0, 0.1);
 	/* display: none; */
 }
 .content-container {
@@ -42,7 +48,7 @@ a {
 	background-color: white;
 }
 .visible-content {
-	width: 77%;
+	max-width: 77%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -50,6 +56,7 @@ a {
 }
 .logo {
 	width: 10vw;
+	/* position: absolute; */
 }
 .name {
 	font-style: normal;
@@ -72,7 +79,7 @@ a {
 .nav-links ul {
 	text-decoration: none;
 	font-weight: 900;
-	font-size: 1.3vw;
+	font-size: 1.2vw;
 	list-style: none;
 }
 .nav-links ul .current a {
@@ -89,6 +96,73 @@ a {
 	margin-top: 2vh;
 }
 
+.hero{
+	width:77vw;
+	background-color: white;
+	height: 40vh;
+	box-shadow: 0px 3px 0px #E6E5E3;
+	display: flex;
+	align-items: center;
+}
+
+.intro{
+display: flex;
+flex-direction: column;
+width: 30%;
+margin-left: 8vw;
+}
+
+.intro h4 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 2vw;
+	color: #484445;
+}
+.intro h4 span{
+	color:#03A1C3;
+}
+
+.intro p{
+	font-size: 1.006vw;
+	line-height: 150%;
+	margin-top: 1vw;
+}
+
 .presentation {
 	width: 100%;
+}
+
+
+
+
+
+
+
+/* 320px — 480px: Mobile devices. */
+@media only screen and (max-width: 480px) {
+
+}
+
+
+/* 481px — 768px: iPads, Tablets. */
+@media only screen and (max-width: 768px) {
+
+}
+
+
+/* 769px — 1024px: Small screens, laptops. */
+@media only screen and (max-width: 1024px) {
+
+}
+
+
+/* 1025px — 1200px: Desktops, large screens. */
+@media only screen and (max-width: 1200px) {
+
+}
+
+
+/* 1201px and more — Extra large screens, TV. */
+@media only screen and (max-width: 1024px) {
+
 }
