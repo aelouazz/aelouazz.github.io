@@ -18,14 +18,14 @@ a {
 	font-family: Noto Sans;
 }
 .nav {
-	width: 25%;
+	width: 23%;
 	height: 100%;
 	position: fixed;
 	background-color: white;
 	display: flex;
 	flex-direction: column;
 	/* align-items: center; */
-	padding-left: 5vw;
+	padding-left: 3vw;
 	padding-top: 3vh;
 	box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.1);
 	/* display: none; */
@@ -37,12 +37,12 @@ a {
 	/* background-color: orange; */
 }
 .clear-content {
-	width: 25%;
+	width: 23%;
 	height: 100%;
 	background-color: white;
 }
 .visible-content {
-	width: 75%;
+	width: 77%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
