@@ -28,6 +28,25 @@ a {
 	color: black;
 	user-select: none;
 }
+
+.arrow-back {
+	position: fixed;
+	top: 3vw;
+	left: 20vw;
+	z-index: 10;
+	display: flex;
+	/* transition: 0.3s; */
+}
+
+.arrow-back a img {
+	width: 5vw;
+}
+
+.arrow-back:hover {
+	transition: 0.3s;
+	transform: translateY(-0.6vw);
+}
+
 .main-container {
 	background-color: white;
 	width: 100%;
