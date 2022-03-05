@@ -18,7 +18,7 @@
 	cursor: url(../img/mouseee.png), auto;
 }
 img {
-	object-fit: cover;
+	object-fit: contain;
 }
 
 *::selection {
@@ -159,6 +159,7 @@ li a:hover {
 }
 .main-container .visible-content .hero .intro p {
 	line-height: 140%;
+	font-size: 0.8rem;
 }
 
 .main-container .visible-content .hero .hero-cta {
