@@ -15,7 +15,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	/* border: red 1px solid; */
-	cursor: url(../img/mouse.png), auto;
+	cursor: url(../img/mouseee.png), auto;
 }
 img {
 	object-fit: cover;
@@ -91,11 +91,12 @@ li a:hover {
 
 .name {
 	font-size: 1.1rem;
-	color: var(--black);
 	transition: 0.7s;
+	color: var(--blue);
 }
 
 .job {
+	color: var(--black);
 	transition: 0.7s;
 }
 
@@ -164,7 +165,7 @@ li a:hover {
 	display: flex;
 	margin-top: 7vh;
 	justify-content: space-between;
-	padding-bottom: 20vh;
+	padding-bottom: 11vh;
 }
 .btn {
 	text-decoration: none;
@@ -223,7 +224,7 @@ li a:hover {
 .project .project-infos p {
 	font-size: 0.9rem;
 	margin-bottom: 2rem;
-	color: var(--mid-gray);
+	color: var(--black);
 }
 
 .project a img {
@@ -258,3 +259,36 @@ li a:hover {
 }
 
 /* ------------------------------- */
+
+@media only screen and (min-width: 1183px) {
+	.main-container .visible-content .projects {
+		flex-direction: row;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+	}
+
+	.main-container .visible-content .projects .project {
+		flex-basis: 0;
+		flex: 1 1 25%;
+		margin: 1.5rem;
+	}
+}
+
+@media only screen and (min-width: 800px) {
+	.main-container .visible-content .projects {
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.main-container .visible-content .projects .project {
+		flex-basis: 0;
+		flex: 1 1 40%;
+		margin: 1.5rem;
+		max-width: 330px;
+	}
+}
+
+#pro {
+	text-align: center;
+}
