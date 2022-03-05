@@ -8,6 +8,7 @@
 	--darker-orange: #af6107;
 	--light-gray: rgb(226, 226, 226);
 	--mid-gray: rgb(143, 143, 143);
+	font-size: 14px;
 }
 
 * {
@@ -27,7 +28,7 @@ img {
 
 p {
 	line-height: 140%;
-	font-size: 0.8rem;
+	font-size: 1rem;
 }
 
 body {
@@ -277,6 +278,9 @@ li a:hover {
 }
 
 @media only screen and (min-width: 800px) {
+	:root{
+		font-size: 18px;
+	}
 	.main-container .visible-content .projects {
 		flex-direction: row;
 		justify-content: center;
