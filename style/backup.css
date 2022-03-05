@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/* border: red 1px solid; */
+	cursor: url(../img/mouse.png), auto;
+}
+
+*::selection {
+	background: #ffca4d;
+}
+body {
+	overflow-x: hidden;
+}
+
+img {
+	pointer-events: none;
+	user-select: none;
+}
+button {
+	user-select: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	user-select: none;
+}
+
+.arrow-back {
+	position: fixed;
+	top: 3vw;
+	left: 20vw;
+	z-index: 10;
+	display: flex;
+	/* transition: 0.3s; */
+}
+
+.arrow-back a img {
+	width: 5vw;
+}
+
+.arrow-back:hover {
+	transition: 0.3s;
+	transform: translateY(-0.6vw);
+}
+
+.main-container {
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	font-family: Noto Sans;
+}
+.nav {
+	width: 23%;
+	height: 100%;
+	position: fixed;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	padding-left: 3vw;
+	padding-top: 3vh;
+	box-shadow: 0.2vw 0vw 0.4vw rgba(0, 0, 0, 0.1);
+	/* display: none; */
+}
+
+li a:hover {
+	filter: invert(50%) sepia(30%) saturate(2000%) hue-rotate(360deg)
+		brightness(100%) contrast(104%);
+	/* cursor: pointer; */
+}
+
+nav ul li {
+	transition: 0.4s;
+}
+
+nav ul li:hover {
+	transform: translateX(1.5vw);
+}
+
+.content-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	/* background-color: orange; */
+}
+.clear-content {
+	width: 23%;
+	height: 100%;
+	background-color: white;
+}
+.visible-content {
+	max-width: 77%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+}
+.logo {
+	width: 10vw;
+	/* position: absolute; */
+}
+.name {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1vw;
+	line-height: 130%;
+	margin-top: 1vh;
+	color: #7c7d81;
+}
+.job {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.1vw;
+	margin-top: 0.5vh;
+	color: #7c7d81;
+}
+.nav-links {
+	margin-top: 10vh;
+}
+.nav-links ul {
+	text-decoration: none;
+	font-weight: 900;
+	font-size: 1.2vw;
+	list-style: none;
+}
+.nav-links ul .current a {
+	text-decoration: underline;
+	color: #03a1c3;
+	/* color: red; */
+}
+
+.nav-links ul li a {
+	color: #353535;
+	margin-top: 2vh;
+}
+.nav-links ul li {
+	margin-top: 2vh;
+}
+
+.hero {
+	width: 77vw;
+	background-color: white;
+	height: fit-content;
+	box-shadow: 0vw 0.15vw 0vw #e6e5e3;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+.intro {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	margin-left: 8vw;
+}
+
+.intro h4 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 2vw;
+	color: #484445;
+}
+.intro h4 span {
+	color: #03a1c3;
+}
+
+.intro p {
+	font-size: 1.006vw;
+	line-height: 150%;
+	margin-top: 1vw;
+}
+
+.hero-cta {
+	display: flex;
+	align-items: center;
+	margin-top: 1vw;
+}
+
+.resume-btn {
+	width: fit-content;
+	background: url("../img/resume-btn.png") no-repeat scroll 0 0 transparent;
+
+	/*delete this later ?*/
+	background: none;
+
+	padding: 0.7vw 1.5vw;
+	border: none;
+	margin-top: 2vw;
+	margin-right: 3vw;
+	font-size: 1vw;
+	font-weight: bold;
+	color: #252525;
+	background-size: contain;
+	background-size: cover;
+	border: 0.15vw solid rgb(175, 175, 175);
+	border-radius: 0.3vw;
+	transition: 0.3s;
+}
+
+.resume-btn:hover {
+	/* cursor: pointer; */
+	background: none;
+	color: #03a1c3;
+	border: 0.15vw solid #f57c2f;
+	transform: translateY(-0.3vw);
+}
+
+.social-links {
+	margin-top: 2vw;
+	margin-left: 1.1vw;
+	display: flex;
+}
+.social {
+	width: 2vw;
+	height: auto;
+	margin-left: 0.8vw;
+}
+
+.social-links a {
+	transition: 0.3s;
+}
+
+.social-links a:hover {
+	transform: translateY(-0.7vw);
+	/* transform: scale(1.2); */
+	/* cursor: pointer; */
+}
+
+.illustration {
+	display: flex;
+	margin-left: 5vw;
+	width: 25vw;
+	margin-bottom: -0.7vw;
+}
+.illustration img {
+	margin: 0;
+}
+
+/* Project section */
+
+.projects {
+	display: flex;
+	flex-direction: column;
+	padding-left: 4vw;
+	padding-right: 4vw;
+	padding-top: 4vw;
+}
+
+.projects-row {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 3vw;
+	align-items: baseline;
+}
+
+.project {
+	/* width: fit-content;
+	height: fit-content; */
+	height: auto;
+	display: flex;
+	transition: 0.3s;
+}
+
+.project img {
+	width: 27vw;
+
+	/* box-shadow: 0.4vw 0.4vw 0.4vw rgba(0, 0, 0, 0.1); */
+}
+.project:hover {
+	transform: translateY(-1vw);
+	box-shadow: 0.3vw 0.6vw 0.4vw rgba(0, 0, 0, 0.1);
+	/* scale: 20; */
+}
+
+.presentation {
+	width: 100%;
+}
+
+/* Contact form Rules */
+.contact-area {
+	width: 77vw;
+	height: 100%;
+	/* margin: auto; */
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-around;
+	border: #252525 1px dashed;
+}
+
+/* 320px — 480px: Mobile devices. */
+@media only screen and (max-width: 480px) {
+}
+
+/* 481px — 768px: iPads, Tablets. */
+@media only screen and (max-width: 768px) {
+	.nav {
+		/* transform: translateX(-50vw); */
+		display: none;
+	}
+
+	.content-container {
+		width: 100vw;
+	}
+
+	.clear-content {
+		width: 0%;
+		height: 100%;
+		background-color: white;
+		display: none;
+	}
+	.visible-content {
+		max-width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		background-color: white;
+	}
+	.hero {
+		flex-direction: column-reverse;
+		width: 100vw;
+		box-shadow: 0vw 1vw 0vw #e6e5e3;
+	}
+
+	.illustration {
+		display: flex;
+		margin-left: 5vw;
+		width: 60vw;
+		margin-bottom: 0vh;
+		margin-top: 8vh;
+	}
+
+	.intro {
+		width: 80%;
+	}
+
+	.intro h4 {
+		font-size: 7vw;
+	}
+	.intro p {
+		font-size: 3vw;
+	}
+
+	.resume-btn {
+		font-size: 5vw;
+		color: gray;
+	}
+
+	.hero-cta {
+		margin-top: 7vw;
+		margin-bottom: 10vw;
+	}
+
+	.social {
+		width: 8vw;
+	}
+
+	.projects-row {
+		flex-direction: column;
+		margin-bottom: 0;
+	}
+	.project img {
+		width: 92.5vw;
+	}
+	.project {
+		margin-bottom: 5vw;
+	}
+
+	.projects {
+		margin-top: 8vw;
+	}
+}
+
+/* 769px — 1024px: Small screens, laptops. */
+@media only screen and (max-width: 1024px) {
+}
+
+/* 1025px — 1200px: Desktops, large screens. */
+@media only screen and (max-width: 1200px) {
+}
+
+/* 1201px and more — Extra large screens, TV. */
+@media only screen and (max-width: 1024px) {
+}

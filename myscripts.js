@@ -1,3 +1,41 @@
+document.onkeypress = function (evt) {
+	evt = evt || window.event;
+	var charCode = evt.keyCode || evt.which;
+	var charStr = String.fromCharCode(charCode);
+	if(charStr === "q"){
+		menu();
+	}
+};
+
+// THE Menu Open and Close Mechanism
+function menu() {
+	const hum = document.getElementById("ham-id");
+	const navi = document.querySelectorAll(".navi");
+	const name = document.querySelectorAll(".name");
+	const job = document.querySelectorAll(".job");
+	const nav_links = document.querySelectorAll(".nav-links");
+	const ham = document.querySelectorAll(".ham");
+
+	let open = hum.getAttribute("open");
+	// console.log(navi[0]);
+	if (open === "0") {
+		hum.setAttribute("open", "1");
+		navi[0].setAttribute("class", "navi nav-active full");
+		name[0].setAttribute("class", "name name-active");
+		job[0].setAttribute("class", "job job-active");
+		nav_links[0].setAttribute("class", "nav-links");
+		ham[0].setAttribute("src", "./img/close.png");
+		// console.log("done");
+	} else {
+		hum.setAttribute("open", "0");
+		navi[0].setAttribute("class", "navi");
+		name[0].setAttribute("class", "name");
+		job[0].setAttribute("class", "job");
+		nav_links[0].setAttribute("class", "nav-links hide");
+		ham[0].setAttribute("src", "./img/menu.png");
+	}
+}
+
 // // Make the DIV element draggable:
 // dragElement(document.getElementById("draggable"));
 
@@ -44,15 +82,6 @@
 // 		document.onmousemove = null;
 // 	}
 // }
-
-
-
-
-
-
-
-
-
 
 // // the following code is to make the page drawable
 
