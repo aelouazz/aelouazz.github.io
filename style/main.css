@@ -54,7 +54,7 @@ body {
 	position: fixed;
 	box-shadow: 0vw 1vw 2vw rgba(0, 0, 0, 0.1);
 	background-color: white;
-	transition: .3s;
+	transition: 0.3s;
 }
 
 .nav-links ul li a {
@@ -62,7 +62,7 @@ body {
 	font-size: 1.5rem;
 	font-weight: 600;
 	color: white;
-	transition: .3s;
+	transition: 0.3s;
 }
 
 li a:hover {
@@ -92,11 +92,11 @@ li a:hover {
 .name {
 	font-size: 1.1rem;
 	color: var(--black);
-	transition: .7s;
+	transition: 0.7s;
 }
 
-.job{
-	transition: .7s;
+.job {
+	transition: 0.7s;
 }
 
 .main-container .navi .nav-top .nav-left {
@@ -258,5 +258,3 @@ li a:hover {
 }
 
 /* ------------------------------- */
-
-
