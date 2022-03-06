@@ -63,6 +63,7 @@ body {
 }
 
 .nav-links ul li a {
+	padding: 2rem 3rem;
 	text-decoration: none;
 	font-size: 1.5rem;
 	font-weight: 600;
@@ -151,7 +152,7 @@ li a:hover {
 .main-container .visible-content .hero .intro {
 	display: flex;
 	flex-direction: column;
-	padding: 2vw;
+	padding: 20px;
 	/* background-color: #02A0C4; */
 }
 .main-container .visible-content .hero .intro h4 {
@@ -169,7 +170,7 @@ li a:hover {
 
 .main-container .visible-content .hero .hero-cta {
 	display: flex;
-	margin-top: 7vh;
+	margin-top: 3rem;
 	justify-content: space-between;
 	padding-bottom: 11vh;
 }
@@ -271,6 +272,7 @@ li a:hover {
 	}
 }
 
+
 @media only screen and (min-width: 800px) {
 	:root {
 		font-size: 18px;
@@ -287,21 +289,21 @@ li a:hover {
 		margin: 1.5rem;
 		max-width: 330px;
 	}
-}
 
-@media only screen and (min-width: 1183px) {
-	.main-container .visible-content .projects {
+	.main-container .visible-content .hero {
 		flex-direction: row;
-		justify-content: flex-start;
-		flex-wrap: wrap;
+		justify-content: center;
+		align-items: flex-end;
+		padding: 0vh 5vw;
+		padding-bottom: 120px;
 	}
 
-	.main-container .visible-content .projects .project {
-		flex-basis: 0;
-		flex: 1 1 25%;
-		margin: 1.5rem;
+	.main-container .visible-content .hero .hero-cta {
+		padding-bottom: 0;
 	}
 }
+
+
 
 #pro {
 	text-align: center;
