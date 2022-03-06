@@ -20,6 +20,7 @@
 }
 img {
 	object-fit: contain;
+	max-width: 100%;
 }
 
 *::selection {
@@ -109,7 +110,7 @@ li a:hover {
 }
 
 .main-container .navi .nav-top .ham {
-	margin-right: 1rem;
+	margin-right: 16px;
 }
 
 .main-container .navi .nav-links ul {
@@ -264,18 +265,9 @@ li a:hover {
 }
 
 /* ------------------------------- */
-
-@media only screen and (min-width: 1183px) {
-	.main-container .visible-content .projects {
-		flex-direction: row;
-		justify-content: flex-start;
-		flex-wrap: wrap;
-	}
-
-	.main-container .visible-content .projects .project {
-		flex-basis: 0;
-		flex: 1 1 25%;
-		margin: 1.5rem;
+@media only screen and (min-width: 400px) {
+	:root {
+		font-size: 18px;
 	}
 }
 
@@ -294,6 +286,20 @@ li a:hover {
 		flex: 1 1 40%;
 		margin: 1.5rem;
 		max-width: 330px;
+	}
+}
+
+@media only screen and (min-width: 1183px) {
+	.main-container .visible-content .projects {
+		flex-direction: row;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+	}
+
+	.main-container .visible-content .projects .project {
+		flex-basis: 0;
+		flex: 1 1 25%;
+		margin: 1.5rem;
 	}
 }
 
