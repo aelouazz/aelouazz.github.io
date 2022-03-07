@@ -11,6 +11,10 @@
 	/* font-size: 16px; */
 }
 
+html{
+	  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 a {
 	user-select: none;
 }
