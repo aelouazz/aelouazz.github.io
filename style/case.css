@@ -97,12 +97,18 @@
 	padding-right: 2rem;
 }
 
+.padd-left-4 {
+	padding-left: 4rem;
+	padding-right: 4rem;
+}
+
 .padd-bot-1 {
 	padding-bottom: 1rem;
 }
 
 .text {
 	line-height: 140%;
+	margin-bottom: 1rem;
 }
 
 .section-title {
