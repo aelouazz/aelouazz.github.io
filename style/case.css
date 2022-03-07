@@ -1,7 +1,6 @@
 .main-container .visible-content {
 	display: flex;
 	flex-direction: column;
-	padding-top: 2rem;
 	width: 100%;
 }
 

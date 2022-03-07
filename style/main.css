@@ -305,6 +305,47 @@ li a:hover {
 	}
 }
 
+@media only screen and (min-width: 1024px) {
+	#links {
+		display: flex;
+		align-items: center;
+		padding: 0.6rem;
+	}
+	#links ul {
+		flex-direction: row;
+		margin-top: 0;
+	}
+
+	.nav-links ul li a {
+		color: var(--blue);
+		padding: 1rem 2rem;
+		font-size: .9rem;
+	}
+	li a:hover {
+		filter: none;
+		color: var(--black);
+		/* cursor: pointer; */
+	}
+	.nav-links ul li:hover {
+	background-color: rgb(241, 241, 241);
+	color: var(--black);
+	}
+	.navi .nav-links ul li {
+		margin-top: 0;
+	}
+	.ham {
+		display: none;
+	}
+	.nav-top {
+		width: auto;
+	}
+	.navi {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+}
+
 #pro {
 	text-align: center;
 }

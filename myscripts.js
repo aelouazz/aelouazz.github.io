@@ -8,7 +8,7 @@ document.onkeypress = function (evt) {
 };
 
 // THE Menu Open and Close Mechanism
-function menu() {
+function menu(test) {
 	const hum = document.getElementById("ham-id");
 	const navi = document.querySelectorAll(".navi");
 	const name = document.querySelectorAll(".name");
@@ -18,6 +18,10 @@ function menu() {
 
 	let open = hum.getAttribute("open");
 	// console.log(navi[0]);
+	if (test === "2" && open === "0"){
+		// alert("hello");
+		return;
+	}
 	if (open === "0") {
 		hum.setAttribute("open", "1");
 		navi[0].setAttribute("class", "navi nav-active full");
@@ -35,6 +39,7 @@ function menu() {
 		ham[0].setAttribute("src", "./img/menu.svg");
 	}
 }
+
 
 // // Make the DIV element draggable:
 // dragElement(document.getElementById("draggable"));
