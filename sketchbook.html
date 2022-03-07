@@ -6,36 +6,46 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style/main.css" />
 		<link rel="icon" type="image/x-icon" href="./img/logo.ico" />
-		<title>Aimane - My Sketchbook</title>
+		<title>Aimane Elouazzani</title>
 	</head>
 	<body>
-		<div class="arrow-back">
-			<a href="./index.html"
-				><img src="./img/arrow-back-black.png" alt="go back icon"
-			/></a>
-		</div>
 		<div class="main-container">
-			<div class="nav">
-				<a href="./index.html"
-					><img class="logo" src="img/logo.png" alt="logo image"
-				/></a>
-				<p class="name">Aimane elouazzani</p>
-				<h5 class="job">Product Designer / developer</h5>
-				<nav class="nav-links">
+			<div class="navi">
+				<div class="nav-top">
+					<div class="nav-left">
+						<a href="./index.html"
+							><img
+								id="draggable"
+								class="logo"
+								src="img/logo.png"
+								alt="logo image"
+						/></a>
+						<div class="aimane">
+							<h6 class="name">Aimane elouazzani</h6>
+							<h5 class="job">Product Designer / developer</h5>
+						</div>
+					</div>
+					<a id="ham-id" onclick="menu('1')" open="0" href="#"
+						><img class="ham" src="./img/menu.svg" alt="open navigation Menu"
+					/></a>
+				</div>
+				<nav id="links" class="nav-links hide">
 					<ul>
-						<li class="current"><a href="./index.html"> Projects </a></li>
-						<li class=""><a href="#"> Sketchbook </a></li>
+						<li class=""><a href="./index.html"> Home </a></li>
+						<li class="current">
+							<a onclick="menu('2')" href="./index.html#pro"> Projects </a>
+						</li>
+						<li class=""><a href="./sketchbook.html"> Sketchbook </a></li>
 						<li class=""><a href="./about.html"> About Me </a></li>
 						<li class=""><a href="./contact.html"> Contact Me </a></li>
 					</ul>
 				</nav>
 			</div>
 			<div class="content-container">
-				<div class="clear-content"></div>
-				<div class="visible-content">
-					<h1>Sketchbook</h1>
-				</div>
+				<!-- <div class="clear-content"></div> -->
+				<div class="visible-content"></div>
 			</div>
 		</div>
 	</body>
+	<script src="myscripts.js"></script>
 </html>
