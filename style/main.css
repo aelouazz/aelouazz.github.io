@@ -11,6 +11,9 @@
 	/* font-size: 16px; */
 }
 
+a {
+	user-select: none;
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -319,7 +322,7 @@ li a:hover {
 	.nav-links ul li a {
 		color: var(--blue);
 		padding: 1rem 2rem;
-		font-size: .9rem;
+		font-size: 0.9rem;
 	}
 	li a:hover {
 		filter: none;
@@ -327,8 +330,8 @@ li a:hover {
 		/* cursor: pointer; */
 	}
 	.nav-links ul li:hover {
-	background-color: rgb(241, 241, 241);
-	color: var(--black);
+		background-color: rgb(241, 241, 241);
+		color: var(--black);
 	}
 	.navi .nav-links ul li {
 		margin-top: 0;
