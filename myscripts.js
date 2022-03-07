@@ -24,7 +24,7 @@ function menu() {
 		name[0].setAttribute("class", "name name-active");
 		job[0].setAttribute("class", "job job-active");
 		nav_links[0].setAttribute("class", "nav-links");
-		ham[0].setAttribute("src", "./img/close.png");
+		ham[0].setAttribute("src", "./img/close.svg");
 		// console.log("done");
 	} else {
 		hum.setAttribute("open", "0");
@@ -32,7 +32,7 @@ function menu() {
 		name[0].setAttribute("class", "name");
 		job[0].setAttribute("class", "job");
 		nav_links[0].setAttribute("class", "nav-links hide");
-		ham[0].setAttribute("src", "./img/menu.png");
+		ham[0].setAttribute("src", "./img/menu.svg");
 	}
 }
 
