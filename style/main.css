@@ -8,6 +8,8 @@
 	--darker-orange: #af6107;
 	--light-gray: rgb(226, 226, 226);
 	--mid-gray: rgb(143, 143, 143);
+	--sep-orange: #f1c40f;
+	--sep-blue: #34495e;
 	/* font-size: 16px; */
 }
 
@@ -43,6 +45,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	overflow-x: hidden;
+	color: var(--black);
 }
 
 .hide {
