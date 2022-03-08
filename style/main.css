@@ -178,6 +178,10 @@ li a:hover {
 	font-size: 1rem;
 }
 
+.illustration-img {
+	width: 30rem;
+}
+
 .hero .hero-cta {
 	display: flex;
 	margin-top: 3rem;
@@ -358,4 +362,24 @@ li a:hover {
 
 #pro {
 	text-align: center;
+}
+
+.illustration svg {
+	width: 25rem;
+	height: 25rem;
+}
+
+#bg {
+	animation: background 25s linear infinite;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+@keyframes background {
+	from {
+		transform: rotateZ(0deg);
+	}
+	to {
+		transform: rotateZ(360deg);
+	}
 }
