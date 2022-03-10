@@ -281,6 +281,30 @@ li a:hover {
 	color: rgba(255, 255, 255, 0.685);
 }
 
+#pro {
+	text-align: center;
+}
+
+.illustration svg {
+	width: 100%;
+	height: auto;
+}
+
+#bg {
+	animation: background 25s linear infinite;
+	transform-origin: center;
+	transform-box: fill-box;
+}
+
+@keyframes background {
+	from {
+		transform: rotateZ(0deg);
+	}
+	to {
+		transform: rotateZ(360deg);
+	}
+}
+
 /* ------------------------------- */
 @media only screen and (max-width: 420px) {
 	.hero .intro p {
@@ -317,6 +341,10 @@ li a:hover {
 
 	.visible-content .hero .hero-cta {
 		padding-bottom: 0;
+	}
+	.illustration svg {
+		width: 25rem;
+		height: 25rem;
 	}
 }
 
@@ -359,28 +387,8 @@ li a:hover {
 		justify-content: space-between;
 		align-items: flex-start;
 	}
-}
-
-#pro {
-	text-align: center;
-}
-
-.illustration svg {
-	width: 25rem;
-	height: 25rem;
-}
-
-#bg {
-	animation: background 25s linear infinite;
-	transform-origin: center;
-	transform-box: fill-box;
-}
-
-@keyframes background {
-	from {
-		transform: rotateZ(0deg);
-	}
-	to {
-		transform: rotateZ(360deg);
+	.illustration svg {
+		width: 25rem;
+		height: 25rem;
 	}
 }
