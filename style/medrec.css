@@ -8,6 +8,10 @@
 	margin-top: 2rem;
 }
 
+.download{
+	margin-top: 2rem;
+}
+
 @media only screen and (min-width: 800px) {
 	body {
 		background-color: #b0dfff;
