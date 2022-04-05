@@ -227,11 +227,13 @@ li a:hover {
 .projects .project {
 	display: flex;
 	flex-direction: column;
-	padding: 2rem;
 	border: var(--light-gray) 0.12rem solid;
 	margin-bottom: 5rem;
 }
 .project .project-infos {
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 3rem;
 }
 
 .project .project-infos .card-header {
