@@ -12,6 +12,9 @@
 	margin-top: 2rem;
 }
 
+.specs{
+	margin-top: 3rem;
+}
 
 
 @media only screen and (min-width: 800px) {
@@ -20,5 +23,9 @@
 	}
 	.block-row {
 		margin-top: 0;
+	}
+	.figma{
+		width: 1190px !important;
+		height: 900px !important;
 	}
 }
