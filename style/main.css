@@ -45,7 +45,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	overflow-x: hidden;
-	color: var(--black);
+	/* color: var(--black); */
 }
 
 .hide {
@@ -59,6 +59,10 @@ body {
 
 .main-container {
 	display: flex;
+}
+
+.shadow{
+	box-shadow: 0 4px 8px #b6b6b64b, 0 6px 20px #b6b6b64b;
 }
 
 .navi {
