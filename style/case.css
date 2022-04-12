@@ -155,6 +155,21 @@
 	height: auto;
 }
 
+#projs{
+	justify-content: space-between;
+	padding-left: 0;
+	padding-right: 0;
+}
+#projs .project{
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+}
+
+.card-header {
+	padding: 1rem;
+}
+
 @media only screen and (min-width: 800px) {
 	body {
 		background-color: rgb(198, 228, 252);
