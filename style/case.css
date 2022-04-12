@@ -155,12 +155,12 @@
 	height: auto;
 }
 
-#projs{
+#projs {
 	justify-content: space-between;
 	padding-left: 0;
 	padding-right: 0;
 }
-#projs .project{
+#projs .project {
 	margin-left: 0;
 	margin-right: 0;
 	margin-bottom: 0;

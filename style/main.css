@@ -61,7 +61,7 @@ body {
 	display: flex;
 }
 
-.shadow{
+.shadow {
 	box-shadow: 0 4px 8px #b6b6b64b, 0 6px 20px #b6b6b64b;
 }
 
@@ -399,7 +399,4 @@ li a:hover {
 	}
 }
 
-
 /* Case Studies navigartion Bot */
-
-
