@@ -7,6 +7,37 @@
 // 	}
 // };
 
+// Copy Email:
+function copy_mail() {
+	/* Get the text field */
+	// var copyText = document.getElementById("myInput");
+
+	// /* Select the text field */
+	// copyText.select();
+	// copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+	/* Copy the text inside the text field */
+	navigator.clipboard.writeText("aymane2020@gmail.com");
+
+	// /* Alert the copied text */
+	// alert("Copied the text: " + copyText.value);
+
+	// -------- Show Toast
+	var x = document.getElementById("snackbar");
+
+	// Add the "show" class to DIV
+	x.className = "show";
+
+	// After 3 seconds, remove the show class from DIV
+	setTimeout(function () {
+		x.className = x.className.replace("show", "");
+	}, 3000);
+}
+
+
+
+
+
 // THE Menu Open and Close Mechanism
 function menu(test) {
 	const hum = document.getElementById("ham-id");
